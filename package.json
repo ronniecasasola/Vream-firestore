@@ -1,0 +1,49 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "test": "jest --watchAll"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/samples": "~3.0.0",
+    "@expo/vector-icons": "^10.0.1",
+    "@react-navigation/web": "^1.0.0-alpha.9",
+    "aws-amplify": "^1.1.32",
+    "aws-amplify-react": "^2.3.11",
+    "aws-amplify-react-native": "^2.1.14",
+    "expo": "^33.0.0",
+    "expo-asset": "^5.0.0",
+    "expo-constants": "^5.0.0",
+    "expo-font": "^5.0.0",
+    "expo-location": "^5.0.1",
+    "expo-permissions": "^5.0.1",
+    "expo-web-browser": "^5.0.0",
+    "firebase": "^6.4.0",
+    "geofirestore": "^3.3.1",
+    "react": "16.8.3",
+    "react-dom": "^16.8.6",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz",
+    "react-native-cardview": "^2.0.2",
+    "react-native-dropdownalert": "^4.2.0",
+    "react-native-elements": "^1.1.0",
+    "react-native-icons": "^0.7.1",
+    "react-native-notification-banner": "0.0.7",
+    "react-native-rn-cardview": "^1.0.4",
+    "react-native-web": "^0.11.4",
+    "react-navigation": "^3.11.0",
+    "toggle-switch-react-native": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.1.0",
+    "jest-expo": "^33.0.0",
+    "react-native-dotenv": "^0.2.0"
+  },
+  "private": true
+}
